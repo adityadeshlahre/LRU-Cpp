@@ -1,14 +1,11 @@
 ### Basic LRU Impl
 
-``` 
-Bash
-g++ -std=c++23 main.cpp -o lru && ./lru                                                                                                                                0  4 ms
+```bash
+g++ -std=c++23 main.cpp -o lru && ./lru
 
 ```
 
-```
-Bash
-
+```text
 Creating LRU Cache with capacity 2
 put(1,1)
 put(2,2)
@@ -22,5 +19,4 @@ get(1): -1
 get(3): 3
 get(4): 4
 Program ending, destructor frees memory.
-
 ```
